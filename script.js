@@ -13,13 +13,13 @@ function playGame() {
     }
 
     // Array of the choices for computer 3 choices
-    let choices = ['rock', 'paper', 'scissors'];
+    const choices = ['rock', 'paper', 'scissors'];
     // Randomly select the computer's choice
-    let computerChoice = choices[Math.floor(Math.random() * choices.length)];
+    const computerChoice = choices[Math.floor(Math.random() * choices.length)];
     // Compare user and computer choices to determine the result
-    let result = compareChoices(userInput, computerChoice);
+    const result = compareChoices(userInput, computerChoice);
     // Display the result on the webpage and set color based on the result
-    let resultElement = document.getElementById('result');
+    const resultElement = document.getElementById('result');
     resultElement.textContent = `Your picked: ${userInput}, Computer picked: ${computerChoice}. ${result}`;
     if (result.includes("You win")) {
         resultElement.style.color = "green";  // Set text color to green if user wins

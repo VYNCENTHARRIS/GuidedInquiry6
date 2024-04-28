@@ -1,0 +1,73 @@
+/* Basic Setup */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding-top: 55px;
+    /* Provides spacing from the top */
+}
+
+/* Styling for the input field */
+input {
+    font-size: 16px;
+    padding: 8px 16px;
+    border: 2px solid #88c0d0;
+    /* Carolina blue border */
+    background-color: white;
+    /* White background for the input field */
+    border-radius: 5px;
+    /* Rounded corners */
+    margin: 10px;
+    width: 250px;
+}
+
+/* General button styling */
+button {
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: #88c0d0;
+    /* Carolina blue for buttons */
+    color: white;
+    /* White text on the buttons */
+    border: none;
+    border-radius: 5px;
+    /* Rounded corners for buttons */
+    box-shadow: 0.1 2px 5px rgba(0, 0, 0, 0.25);
+    /* Small Shadow for depth */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #6588b3;
+    /* A darker Carolina blue when hovering */
+}
+
+/* Result display styling */
+#result {
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    /* White background for contrast */
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Adds depth */
+}
+
+/* Score section styling */
+#scoreboard {
+    font-size: 20px;
+    background-color: #eaedf2;
+    /* Light gray background for score area */
+    color: #4c566a;
+    /* Darker gray  */
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
